@@ -1,2 +1,2 @@
-/** Node:{id,name,role,status,lineage,position,delay_ms}; RequestSet:{id,code,title,events,note}; Trial:{id,name,request_set_id,max_delay_ms,sticky_ms,input_snapshot,status,result,error} */
-export const entityNames=['nodes','request_sets','trials'];
+/** Node:{id,name,role,status,lineage,position,delay_ms}; RequestSet:{id,code,title,events,note}; Trial:{id,name,request_set_id,max_delay_ms,sticky_ms,input_snapshot,status,result,error}; CrashScript:{id,code,title,capacity,events,note}; CrashDrill:{id,name,script_id,capacity,status,input_snapshot,result,error} */
+export const entityNames=['nodes','request_sets','trials','crash_scripts','crash_drills'];
